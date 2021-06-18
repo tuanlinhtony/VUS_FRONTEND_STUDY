@@ -12,6 +12,14 @@ html, body{
   clear: both;
 }
 /* HEADER */
-.header_logo__logoItem{
+.header__logoItem{
   float: left;
+}
+.header__sloganItem{
+  float: right;
+  margin-right: 120px;
+}
+.header_navbar ul{
+  list-style: none;
+  color: black;
 }
