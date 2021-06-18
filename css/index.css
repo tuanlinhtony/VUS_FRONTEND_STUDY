@@ -1,0 +1,17 @@
+/* GLOBAL */
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.clear{
+  clear: both;
+}
+/* HEADER */
+.header_logo__logoItem{
+  float: left;
+}
