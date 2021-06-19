@@ -24,12 +24,23 @@ html, body{
   margin: 5px;
   border-top: 1px solid #E8E8E8;
   border-bottom: 1px solid #E8E8E8;
+  text-align: center;
+  padding: 15px 0;
 }
 .header_navbar ul li{
   display: inline;
+}
+.active{
+  border-bottom: 2px solid #B31C25;
+}
+.header_navbar ul li:hover{
+  border-bottom: 2px solid #B31C25;
 }
 .header_navbar ul a{
   text-decoration: none;
   color:  #636363;
   text-transform: uppercase;
+  font-weight: bold ;
+  font-size: 1.13vw;
+  padding: 0 0.13vw;
 }
