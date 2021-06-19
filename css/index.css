@@ -11,6 +11,17 @@ html, body{
 .clear{
   clear: both;
 }
+h2{
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.line{
+  background-image: url("../img/line.png");
+  height: 25px;
+  background-repeat: no-repeat;
+  background-position: center
+}
 /* HEADER */
 .header__logoItem{
   float: left;
@@ -43,4 +54,12 @@ html, body{
   font-weight: bold ;
   font-size: 1.13vw;
   padding: 0 0.13vw;
+}
+/* CAROUSEL */
+.carousel{
+  background-image: url("../img/slider_1.png");
+  height: 65%;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
 }
