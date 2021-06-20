@@ -7,7 +7,6 @@ html, body{
   font-size: 16px;
   font-family: "Times New Roman", Times, serif;
 }
-
 .clear{
   clear: both;
 }
@@ -15,12 +14,15 @@ h2{
   font-size: 25px;
   text-transform: uppercase;
   text-align: center;
+  padding-top: 50px;
+  margin-bottom: 16px;
 }
 .line{
   background-image: url("../img/line.png");
   height: 25px;
   background-repeat: no-repeat;
-  background-position: center
+  background-position: center;
+  margin-bottom: 25px;
 }
 /* HEADER */
 .header__logoItem{
@@ -58,8 +60,55 @@ h2{
 /* CAROUSEL */
 .carousel{
   background-image: url("../img/slider_1.png");
-  height: 65%;
+  height: 55%;
   background-size: cover;
   background-position: center;
   margin-top: 20px;
+}
+/* INTRO */
+.intro p{
+  text-align: center;
+  font-size: 16px;
+  color: #636363;
+  line-height: 25px;
+}
+/* PROGRAMS */
+.programs__item{
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.programs__item img{
+  width: 100%;
+}
+.programs__item h3{
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #B31C25;
+  margin: 10px 0 5px 0;
+}
+.programs__item p{
+  text-transform: capitalize;
+  color: #636363;
+  font-size: 14px;
+  margin: 0;
+}
+/* NEWS */
+.news__left, .news__right{
+  float: left;
+  width: 50%;
+}
+.news__text{
+  position: relative;
+}
+.news__text img{
+  width: 100%;
+  display: block;
+}
+.news__text p{
+  position: absolute;
+}
+/* FOOTER */
+.footer{
+  background-color: #B31C25;
 }
