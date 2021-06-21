@@ -107,6 +107,15 @@ h2{
 }
 .news__text p{
   position: absolute;
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+  background-color: red;
+  bottom: 10px;
+  left: 5px;
+}
+.news__left .news__text p{
+  font-size:  24px;
 }
 /* FOOTER */
 .footer{
