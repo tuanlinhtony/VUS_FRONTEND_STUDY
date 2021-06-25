@@ -94,28 +94,21 @@ h2{
   margin: 0;
 }
 /* NEWS */
-.news__left, .news__right{
+.news_text{
+  position: relative;
+}
+.news_left, .news_right{
   float: left;
   width: 50%;
 }
-.news__text{
-  position: relative;
-}
-.news__text img{
-  width: 100%;
+.news_text img{
   display: block;
-}
-.news__text p{
-  position: absolute;
-  color: white;
-  text-transform: uppercase;
   width: 100%;
-  background-color: red;
-  bottom: 10px;
-  left: 5px;
 }
-.news__left .news__text p{
-  font-size:  24px;
+.news_text p{
+  position: absolute;
+  top: 10px;
+  left: 5px;
 }
 /* FOOTER */
 .footer{
