@@ -94,9 +94,13 @@ h2{
   margin: 0;
 }
 /* NEWS */
+.news{
+  margin-bottom: 20px;
+}
 .news_left, .news_right{
   float: left;
   width: 50%;
+  padding: 0 5px;
 }
 .news_text{
   position: relative;
@@ -107,7 +111,7 @@ h2{
 }
 .news_text p{
   position: absolute;
-  bottom: 10px;
+  bottom: 8px;
   color: white;
   text-transform: uppercase;
   background-color: rgba(0, 0, 0, 0.5);
@@ -121,11 +125,26 @@ h2{
 .news_smallitem{
   float: left;
   width: 50%;
+  padding: 0 8.5px 10px;
 }
 .news_text hr{
   margin: 0;
+  height: 5px;
+  background-color: red;
+  margin-top: 3px;
 }
 /* FOOTER */
 .footer{
   background-color: #B31C25;
+  color: white;
+  padding: 20px 50px;
+}
+.footer img{
+  float: left;
+}
+.footer p{
+  float: right;
+  width: 50%;
+  word-spacing: 2px;
+  text-align: justify;
 }
